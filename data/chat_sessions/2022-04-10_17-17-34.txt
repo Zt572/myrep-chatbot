@@ -1,0 +1,5 @@
+Which district do you support? ~:~ You asked: 'Which district do you support?'; sorry, I don't know anything about that.
+no ~:~ You asked: 'no'; sorry, I don't know anything about that.
+2
+0
+45.19

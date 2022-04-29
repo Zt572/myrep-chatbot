@@ -1,0 +1,21 @@
+Description:
+    myrep-chatbot.py combines my previous five assignments to form a fully functional chatbot from data retrieval to
+    chat logging. Thanks to the modularity of each individual part, myrep-chatbot ended up being less than 10 lines of
+    actual code as it was simple to connect them together.  
+    
+    For the most part, my previous assignments were left unmodified. However, there were a few minor changes made to them
+    to further streamline their use and make them easier to combine. prog1.py now supports a dynamic output path and can now 
+    be called with parameters from import as opposed to only being ran from the command line using argparse. prog2.py and 
+    infocontainer.py were both updated to include an additional query and answer: 'which district do you [the chatbot] support
+    for Q/A?'. prog3ui.py was updated to print answers a little more cleanly using tabs and now notifies the user with suggestions
+    if their query falls just short of one of the known ones for added convenience. prog4fuzzy.py now signals if the user's response
+    was relatively close to a known one instead of making a black or white decision, allowing for suggestions to be made. Lastly, 
+    prog5logger.py was updated to display chats better and to better handle multi-line responses from the chatbot. These changes are
+    mentioned in brief in the header to those scripts and are reflected with a later version number.
+
+    Several short examples logs (and a chat_statistics.csv file containing their info) are included for those who want to immediately
+    test the code. I recommend deleting all files within the chat_sessions folder as well as the chat_statistics.csv file itself once
+    you wish to use the module in practice. If you're using this project as is, then you can add more chat logs to chat_sessions and 
+    chat_statistics.csv by running myrep-chatbot and interacting with the system.
+
+-- Z.Y.
