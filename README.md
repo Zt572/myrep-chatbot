@@ -1,4 +1,6 @@
 # Programming Assignment 6: Assembled Chatbot
+Requires pandas package as a dependency.
+
 myrep-chatbot.py brings together all previous components to form a fully functional chatbot for District 93. There are two major improvements over the past version of the previous parts: 1) there is now a simple config.py file which allows the user to specify the root directory for the chatbot, and 2) the chatbot now provides suggestions for queries that come close to a known one, further improving its intelligence. 
 
 All the individual components were mostly unchanged. For information on the changes, see doc. 
